@@ -1,0 +1,331 @@
+﻿* {
+    margin: 0, auto;
+}
+
+body
+{
+
+}
+
+.main {
+   
+}
+
+.head {
+   
+    
+}
+
+nav {
+    
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    font-family: 'Sitka Banner';
+   
+}
+
+.title {
+
+}
+
+#main-content {
+    background-image: url("img/mansion.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    color: white;
+    width: 1900px;
+    height: 832px;
+}
+
+#main-content h1 {
+    font-family: 'Sitka Banner';
+    font-size: 15px;
+    padding-top: 300px;
+    margin-left: 150px;
+
+}
+
+    #main-content h2 {
+        font-family: 'Sitka Banner';
+        font-size: 70px;
+        margin-top: 50px;
+        margin-left: 150px;
+    }
+
+    #main-content h3 {
+        font-family: 'Sitka Banner';
+        margin-left: 150px;
+    }
+
+    #main-content h4 {
+        margin-left: 150px;
+        font-family: 'Sitka Banner';
+    }
+
+    
+
+ #buttons {
+    display: flex;
+    margin-left: 120px;
+    
+
+}
+
+ #buttons h4 {
+     justify-content: space-between;
+     margin: 30px 30px;
+ }
+
+ .nav-onscrl {
+     background: black;
+     animation: animate 1sc fade-in;
+ }
+
+.location-search {
+    display: flex;
+    height: 36px;
+    background: rgba(0,0,0,0.9);
+}
+
+    .location-search
+    input {
+        width: 700px;
+        margin-left: 210px;
+        background: rgba(0,0,0,0.9);
+        height: 24px;
+    }
+
+ .location-search 
+ h3 {
+     margin-left: 750px;
+ }
+
+#about-content {
+    background-color: #272727;
+    width: 1900px;
+    height: 950px;
+    display: flex;
+}
+
+    #about-content img {
+        height: 600px;
+        width: 600px;
+        margin-left: 400px;
+        margin-top: 30px;
+    }
+
+    #about-content #about-text {
+        margin-left: 80px;
+        margin-top: 100px;
+       
+    }
+
+    #about-content h2 {
+        font-family: playfairdisplay;
+        font-size: 36px;
+        font-weight: 400;
+        letter-spacing: 0;
+        line-height: 120%;
+        color: white;
+    }
+
+    #about-content p {
+        width: 45%;
+        color: white;
+        font-family: playfairdisplay;
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 0;
+        line-height: 120%;
+    }
+
+    #about-buttons {
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 693px;
+    }
+
+        #about-buttons h4 {
+            color: white;
+            font-family: playfairdisplay;
+            
+            font-weight: 400;
+            letter-spacing: 0;
+            line-height: 120%;
+        }
+
+.sold {
+    background: #f8f8f8;
+  
+}
+
+.sold-header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    background-color: #f8f8f8;
+}
+
+
+    .sold-header h3 {
+        font-family: playfairdisplay;
+        font-size: 36px;
+        font-weight: 400;
+        letter-spacing: 0;
+        line-height: 120%;
+    }
+
+.filter {
+    display: flex;
+    margin-right: 25px;
+    font-family: karla;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    line-height: 1.8;
+    text-transform: uppercase;
+    justify-content: center;
+    margin-top: 30px;
+}
+ .sold-p {
+    display: flex;
+    text-align: center;
+    margin-left: 25px;
+   
+}
+
+     .sold container {
+         height: 700px; 
+         background-color: rgba(255,255,255,1);
+         z-index: 1;
+        }
+
+     .sold img {
+         height: 500px;
+         width: 900px;
+     }
+
+     .sold-bar {
+         z-index: 1;
+     }
+
+     .sold-1 {
+           padding-right: 40px;
+     }
+
+.sold-2 {
+    padding-right: 40px;
+}
+
+.sold-info {
+    background-color: rgba(255,255,255,0.8);
+}
+
+
+
+
+
+/*featured Listings*/
+
+
+
+.featured-p-sold {
+    background: #272727;
+    display: flex;
+}
+
+    .featured-p-header {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 25px;
+        background-color: #272727;
+    }
+
+
+    .featured-p-header h3 {
+        font-family: playfairdisplay;
+        font-size: 36px;
+        font-weight: 400;
+        letter-spacing: 0;
+        line-height: 120%;
+        color: white;
+    }
+
+.featured-p-filter {
+    display: flex;
+    margin-right: 25px;
+    font-family: karla;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    line-height: 1.8;
+    text-transform: uppercase;
+    justify-content: center;
+    margin-top: 30px;
+    color: white;
+}
+
+.featured-p-sold img {
+    height: 500px;
+    width: 900px;
+}
+
+
+
+.test {
+    display: flex;
+    width: 850px;
+    height: 425px;
+}
+
+    .test h4 {
+        font-family: playfairdisplay;
+        font-size: 36px;
+        font-weight: 400;
+        letter-spacing: 0;
+        line-height: 120%;
+    }
+
+
+.test-filter {
+    background-color: white;
+    
+
+}
+
+.test-filter-s {
+    display: flex;
+}
+
+.test-filter h4 {
+    font-family: playfairdisplay;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 120%;
+    width: 50%;
+}
+
+.test-info {
+  
+    font-family: 'Sitka Display';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+    .test-info h4 {
+        font-family: playfairdisplay;
+        font-size: 36px;
+        font-weight: 400;
+        letter-spacing: 0;
+        line-height: 120%;
+        width: 50%;
+    }
